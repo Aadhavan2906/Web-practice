@@ -1,0 +1,60 @@
+h2{
+    color:brown;
+}
+.clr{
+    background-color: aquamarine;
+}
+.clr1{
+    background-color: blueviolet;
+}
+.fa{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size:50px;
+    color:aqua
+}
+a{
+    text-decoration: none;
+}
+#abc{
+    color:red;
+}
+.ab{
+    color:rebeccapurple;
+}
+.ull
+{
+    list-style-type:square;
+}
+.cont{
+    color:yellowgreen;
+}
+.container{
+    border:2px solid blue;
+    padding:15px;
+    width:300px;
+    margin:20px;
+    position: relative;
+    left: 38%;
+    text-align: center;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+td,th{
+    border:1px solid brown;
+    padding:15px;
+}
+.con-1
+{
+    border: 2px solid orange;
+    display:inline;
+}
+.con-2
+{
+    border: 1px solid orange;
+    display:block;
+}

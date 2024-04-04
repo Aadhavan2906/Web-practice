@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ball"></div>
+        <div class="obstacle"></div>
+    </div>
+    <hr>
+</body>
+<style>
+    @keyframes rotate
+    {
+        from{
+            transform: rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        } 
+    }
+    @keyframes move{
+        from{
+            transform: translateX(600px);
+        }
+        to{
+            transform:translateX(-300px);
+        }
+    }
+    @keyframes bounse
+    {
+        0%,100%
+        {
+            transfrom:translateY(0px);
+        }
+        50%
+        {
+            transform:translateY(-300px);
+        }
+    }
+body
+{
+    margin-top:200px;
+}
+.container
+{
+    display:flex;
+}
+.ball
+{ 
+    border:2px solid black;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(black,grey);
+    animation:rotate 1s infinite linear;
+}
+.obstacle
+{
+    border:1px solid black;
+    background-color: black;
+    width:5px;
+    height:200px;
+    animation:move 1s infinite linear;
+}
+hr{
+    height:30px;
+    background-color:black;
+}
+.ball:hover
+{
+    animation:bounse 1s infinite;
+}
+
+</style>
+</html>
