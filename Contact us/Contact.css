@@ -1,0 +1,258 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url("rental 1.jpg");
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+   .contact-details {
+    background-color: #747264;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+    color:#E0CCBE;
+    
+  }
+  .contact-form {
+    background-color:#747264;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+    color:#ECB159;
+    
+    
+    
+    
+  }
+ 
+
+  form {
+    display: grid;
+    gap: 10px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .a{
+      border: 2px solid #f4f4f4;
+      background-color:#3C3633;
+      padding: 30px;
+      font-size: 20px;
+  }
+  img{
+      padding:2px;
+  }
+  .f{
+      padding:10px;
+  }
+  footer{
+    color:white;
+    background-color:body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image:url("rental 1.jpg");
+      }
+    
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+      }
+    
+      main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+    
+       .contact-details {
+        background-color: #747264;
+        padding: 20px;
+        border-radius: 8px;
+        font-family: "Times New Roman", Times, serif;
+        font-size:20px;
+        color:#E0CCBE;
+        
+      }
+      .contact-form {
+        background-color:#747264;
+        padding: 20px;
+        border-radius: 8px;
+        font-family: "Times New Roman", Times, serif;
+        font-size:20px;
+        color:#ECB159;
+        
+        
+        
+        
+      }
+     
+    
+      form {
+        display: grid;
+        gap: 10px;
+      }
+    
+      label {
+        font-weight: bold;
+      }
+    
+      input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+    
+      button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .a{
+          border: 2px solid #f4f4f4;
+          background-color:#3C3633;
+          padding: 30px;
+          font-size: 20px;
+      }
+      img{
+          padding:2px;
+      }
+      .f{
+          padding:10px;
+      }
+      footer{
+        color:white;
+        background-color:body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image:url("rental 1.jpg");
+          }
+        
+          header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+          }
+        
+          main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+          }
+        
+           .contact-details {
+            background-color: #747264;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: "Times New Roman", Times, serif;
+            font-size:20px;
+            color:#ECB159;
+            
+          }
+          .contact-form {
+            background-color:#747264;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: "Times New Roman", Times, serif;
+            font-size:20px;
+            color:#ECB159;
+             }
+             
+        
+          form {
+            display: grid;
+            gap: 10px;
+          }
+        
+          label {
+            font-weight: bold;
+          }
+        
+          input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+          }
+        
+          button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          .a{
+              border: 2px solid #f4f4f4;
+              background-color:#F0EDCF;
+              padding: 30px;
+              font-size: 30px;
+          }
+          img{
+              padding:2px;
+          }
+          .f{
+              padding:10px;
+          }
+          footer{
+            background-color:#F0EDCF;
+            color:black;
+            
+          };
+        
+      };
+    
+  }

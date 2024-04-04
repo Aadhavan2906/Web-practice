@@ -1,0 +1,22 @@
+body{
+    margin-top:200px;
+}
+.box{
+    margin:auto;
+    border:1px solid black;
+    width:300px;
+    height:150px;
+    background-color: aqua;
+    box-shadow:40px 40px 40px 40px blue,-40px 40px 40px brown;
+    border-radius:50px 0px 50px 40px;
+    transform:rotate(40deg);
+    transform:skew(30deg);
+    transform:rotate3d(2,4,5,30deg);
+    transform: translate(-200px);
+    /*background:linear-gradient(red 40%,gray,pink);*/
+    background:radial-gradient(circle,orange 0%,yellow 50%,green 100%);
+   
+}
+body{
+    background-color: aquamarine;
+}
