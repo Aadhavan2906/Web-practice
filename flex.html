@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<body>
+    <h1>Flex Container Properties</h1><br>
+    <div class="cont">
+        <div class="items" style="background-color: blueviolet;">One</div>
+        <div class="items" style="background-color: orchid;">Two</div>
+        <div class="items" style="background-color: orangered;">Three</div>
+        <div class="items" style="background-color: rgb(65, 188, 225);">Four</div>
+        <div class="items" style="background-color: royalblue;">Five</div>
+        <div class="items" style="background-color: rgb(80, 4, 23);">Six</div>
+    </div>
+    <br>
+    <h1>Flex Items Properties</h1><br>
+    <div class="cont">
+        <div class="items one" style="background-color: blueviolet;">One</div>
+        <div class="items two" style="background-color: orchid;">Two</div>
+        <div class="items three" style="background-color: orangered;">Three</div>
+        <div class="items four" style="background-color: rgb(65, 188, 225);">Four</div>
+        <div class="items five" style="background-color: royalblue;">Five</div>
+        <div class="items six" style="background-color: rgb(80, 4, 23);">Six</div>
+    </div>
+    
+
+</body>
+<style>
+    *
+    {
+        margin: 0;padding: 0;border-collapse:collapse ;
+    }
+    .cont
+    {
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        border: 2px dotted;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1px;
+        justify-content: space-around;
+    }
+    .items
+    {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        height: 100px;
+        transition: 1s;
+        filter: brightness(50%);
+    }
+    .items:hover
+    {
+        filter: brightness(100%);
+    }
+    .six
+    {
+        order: -1;
+        
+    }
+    .one{order: -1;}
+    .two{order:1}
+    
+
+</style>
+</html>

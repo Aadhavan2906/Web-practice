@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1 class="header">Hello World</h1>
+    <div id="main-content">
+        <div class="pos" id="left">
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt, aut minus magnam consequatur corrupti molestias possimus non eius veniam, iure asperiores quasi animi dolore eos nesciunt laudantium repellat quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore quasi, repellat praesentium voluptatem fuga repellendus, ipsam nam adipisci saepe aperiam sunt cumque dolor eaque corporis. Sequi debitis sunt nostrum.</p>
+        </div>
+        <div class="pos" id="right">
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora tenetur numquam autem quisquam quod corporis praesentium repellat ipsam, ex dignissimos inventore expedita dolores ullam ut? Ipsam voluptatibus at labore sit.</p>
+        </div>
+        <div class="pos" id="bottom">
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, voluptatum voluptate ipsam esse fugit repellat unde maxime dolores explicabo, quaerat, doloribus aliquid ipsum aperiam ut recusandae? Autem unde sint est?</p>
+        </div>
+        <div class="pos" id="b-right">
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, voluptatum voluptate ipsam esse fugit repellat unde maxime dolores explicabo, quaerat, doloribus aliquid ipsum aperiam ut recusandae? Autem unde sint est?</p>
+        </div>
+        <div class="pos" id="b-right">
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, voluptatum voluptate ipsam esse fugit repellat unde maxime dolores explicabo, quaerat, doloribus aliquid ipsum aperiam ut recusandae? Autem unde sint est?</p>
+        </div>
+        <div class="pos" id="b-right">
+            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, voluptatum voluptate ipsam esse fugit repellat unde maxime dolores explicabo, quaerat, doloribus aliquid ipsum aperiam ut recusandae? Autem unde sint est?</p>
+        </div>
+    </div>
+</body>
+<style>
+    :root 
+    {
+        --black :rgba(0 , 0, 1,0.75);
+    }
+    *{margin: 0;}
+    .header
+    {
+        position: sticky;
+        color:red;
+        text-align: center;
+        letter-spacing: 10px;
+        background-color: var(--black);
+        padding: 16px;
+        animation: intro 4s ease ;
+    }
+    @keyframes intro
+    {
+        0%
+        {
+            letter-spacing: 90px;
+        }
+        100%
+        {
+            letter-spacing: 10px;
+        }
+    }   
+    #main-content
+    {
+        border: 3px solid blue;
+        padding: 30px;
+        margin: 10px;
+        height: 550px;
+    }
+    .pos
+    {
+        overflow-y:auto;
+        position: absolute;
+        border: 2px solid orange;
+        margin: 1px;
+        width: 40%;
+        height: calc(500px - 250px);
+        text-align: center;
+    }
+    #left
+    {
+        background-color: red;opacity: 0.5;
+    }
+    #left:hover , #right:hover, #bottom:hover,#b-right:hover
+    {
+        opacity: 1;
+    }
+    #right
+    {
+        background-color: green;
+        left:50%;opacity: 0.5;
+    }
+    #bottom
+    {
+        background-color: skyblue;
+        opacity: 0.5;
+        top: 50%;
+
+    }
+    #b-right
+    {
+        top: 50%;
+        left:50%;
+        background-color: yellow;opacity: 0.5;
+    }
+    .para
+    {
+        text-align: justify;
+        position: absolute;
+        padding: 35px 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color:black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    @keyframes animate-intro
+    {
+        0%
+        {
+            display: none;
+        }
+        100%
+        {
+            display: block;
+        }
+    }
+
+
+</style>
+</html>

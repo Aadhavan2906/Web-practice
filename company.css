@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+ul
+{
+    list-style-type: none;   
+}
+.main-container
+{
+    display: grid;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logo-container img
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.search img{
+    width: 20px;
+}
+.search
+{
+    display: flex;
+    gap: 10px;
+}
+.search input
+{
+    border: 1px solid;
+    border-radius: 4px;
+}

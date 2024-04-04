@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncing Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="upper">
+        <div class="ball"></div>
+        <div class="object"><img src="z.png" alt="" /></div>
+      </div>
+      <div class="ground"></div>
+    </div>
+  </body>
+  <style>
+    .container {
+      border: 1px solid;
+      height: 500px;
+      width: 700px;
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    .upper {
+      display: flex;
+      width: 500px;
+    }
+    .ball {
+      align-self: flex-end;
+      display: flex;
+      background: linear-gradient(royalblue 50%, lightgreen);
+      border: 0px solid;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+    .object img {
+      transform: translate(500px);
+      height: 120px;
+    }
+    .ground {
+      border-top: 1px solid;
+
+      background-color: aqua;
+    }
+  </style>
+</html>
